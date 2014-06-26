@@ -14,7 +14,7 @@ class Joc(object):
         # De moment no volem sortir del joc
         self.surt = False
 
-        # Creem un jugador a partir d'imatge, velocitats i acceleracions
+        # Creem un jugador a partir d'imatge, posició i velocitats
         self.jugador = Jugador("Imatges/Jugador.png", 400, 300, 500, 500)
         # Creem un grup d'sprites que només contindrà en jugador
         self.grup_jugador = pygame.sprite.GroupSingle(self.jugador)

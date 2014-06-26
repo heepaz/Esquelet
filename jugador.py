@@ -7,7 +7,7 @@ class Jugador(pygame.sprite.Sprite):
     # Definim la Funció que crearà un jugador a partir d'una imatge i
     # unes posicions, velocitats i acceleracions
     def __init__(self, imatge="Imatges/Jugador.png",
-                 x=0, y=0, vx=100, vy=100):
+                 x=0, y=0, vx=0, vy=0):
         # Afegim al Jugador les característiques de l'Sprite
         pygame.sprite.Sprite.__init__(self)
 
